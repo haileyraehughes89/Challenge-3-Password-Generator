@@ -6,8 +6,8 @@ var characterUpper = ["A", "B", "C"]  //This is creating an array... look into t
 var characterLower = ["a", "b", "c"]
 var numbers = ["1", "2", "3", "4", "5"]
 var characterSpecial = ["@", "!", "#"]
-var allElements = [...characterUpper, ...characterLower, ...numbers, ...characterSpecial]
-
+var allElements = []
+var num = 0
 
 generateBtn.addEventListener("click", myFunction);
 
@@ -25,8 +25,18 @@ function myFunction() {
   
     //area of question
   var lowers = confirm("would you like to include lowercase characters?");
-    if (!lowers) (allElements.splice(1,1));
+    if (lowers) allElements=[...allElements,...characterLower], (num += 1);
   var uppers = confirm("would you like to include uppercase characters?");
+  if (uppers) allElements=[...allElements,...characterUpper], (num += 1);
+  var numerics = confirm("would you like to include numeric characters?");
+    if (numerics) allElements=[...allElements,...numbers], (num += 1);
+  var specials = confirm("would you like to include special characters?");
+  if (specials) allElements=[...allElements,...characterSpecial], (num += 1);
+
+  if (num < 3) {
+    alert("you must select three character types, please re-start.")
+    myFunction();
+  }
     //area of question
 
   var testing = ""
