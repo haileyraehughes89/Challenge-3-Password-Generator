@@ -45,6 +45,8 @@ Password Generation:
 To generate the password I created an array with an empty string. In the string I put a string of variables named randomElement. The randomelement was defined under a for loop. The for loop ran the functions Math.floor and Math.random together over the the allElements array the number of times that was equal to the user's cho
 Using the allElements variable, I created a new variable randomElement that that generated a random value from the array by selecting a random index and pulling that value. It did this 
 
+![PasswordGenerator_AdobeExpress](https://user-images.githubusercontent.com/127250721/231945747-2f5551bd-2893-4a52-847a-489cf89f48e4.gif)
+
 
 Deployed Link: https://haileyraehughes89.github.io/Challenge-3-Password-Generator/
  
