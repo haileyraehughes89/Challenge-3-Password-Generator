@@ -47,3 +47,4 @@ Using the allElements variable, I created a new variable randomElement that that
 
 
 Deployed Link: https://haileyraehughes89.github.io/Challenge-3-Password-Generator/
+ 
