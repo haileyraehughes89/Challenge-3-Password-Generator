@@ -46,3 +46,4 @@ To generate the password I created an array with an empty string. In the string 
 Using the allElements variable, I created a new variable randomElement that that generated a random value from the array by selecting a random index and pulling that value. It did this 
 
 
+Deployed Link: https://haileyraehughes89.github.io/Challenge-3-Password-Generator/
